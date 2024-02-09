@@ -1,0 +1,365 @@
+    /*menu*/
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow: hidden;
+        background: -webkit-linear-gradient(left, #ff7300, #ffc800);;
+      }
+      li.dropdown {
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .dropdown-content a:hover {background-color: #f1f1f1;}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+     
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a :hover {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .menu_con {
+        display: block;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;}
+
+      .menu_con :hover{
+        display: block;
+        color: white;
+        background-color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+
+      }
+
+    /*index*/
+/*head */
+header.masthead {
+  padding-top: 12.5rem;
+  padding-bottom: 10rem;
+  text-align: center;
+  color: goldenrod;
+  background-image: url(img/5757424.jpg);
+  background-repeat: initial;
+  background-attachment: initial;
+  background-position: center center;
+  background-size: cover;
+}
+/*information*/
+.information{
+  display: flex;
+    padding-top: 10.5rem;
+    padding-bottom: 10rem;
+    background-image: url(img/Wavy_Bus-06_Single-06.jpg);
+    background-repeat: no-repeat;
+    background-attachment: unset;
+    background-position: left;
+    background-size: contain;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+
+/*annonces*/
+
+  /*footer*/
+footer{
+    padding-top: 10.5rem;
+    padding-bottom: 10rem;
+}
+
+    /*formulaire inscription gp*/
+
+    form{
+      margin-bottom: 20%;
+    }
+
+    .field{
+     display: flex;
+     flex-direction: column;
+    }
+
+    #bouton{
+      margin-top: 5%;
+width: 100%;
+margin-bottom: 50%;
+    }
+
+    input{
+      height: 30px;
+    }
+
+    /*formulaire inscription gp reussi*/
+
+   
+      
+    #annonces {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      overflow-x: auto;
+      margin: 10px;
+    }
+    
+    #annonces td, #annonces th {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    
+    #annonces tr:nth-child(even){background-color: #f2f2f2;}
+    
+    #annonces tr:hover {background-color: #ddd;}
+    
+    #annonces th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #ff7300;
+      color: white;
+    }
+    
+    button{
+      height: 50px;
+      width: 100px;
+      color: white;
+      background-color: #ff7300;
+      border-color: #ff7300;
+      border-radius: 10%;
+    }
+    button:hover{
+      height: 75px;
+      width: 125px;
+      color: white;
+      background-color: #ff7300;
+    }
+    input{
+      height: 30px;
+    }
+
+    th{
+      width: 20px;
+    }
+
+    /*formulaire inscription user*/
+    .register{
+      background: -webkit-linear-gradient(left, #ff7300, #ffc800);; 
+      margin-top: 3%;
+      padding: 3%;
+  }
+  .register-left{
+      text-align: center;
+      color: #fff;
+      margin-top: 4%;
+  }
+  .register-left input{
+      border: none;
+      border-radius: 1.5rem;
+      padding: 2%;
+      width: 60%;
+      background: #f8f9fa;
+      font-weight: bold;
+      color: #383d41;
+      margin-top: 30%;
+      margin-bottom: 3%;
+      cursor: pointer;
+  }
+  .register-right{
+      background: #f8f9fa;
+      border-top-left-radius: 10% 50%;
+      border-bottom-left-radius: 10% 50%;
+  }
+  .register-left img{
+      margin-top: 15%;
+      margin-bottom: 5%;
+      width: 25%;
+      -webkit-animation: mover 2s infinite  alternate;
+      animation: mover 1s infinite  alternate;
+  }
+  @-webkit-keyframes mover {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-20px); }
+  }
+  @keyframes mover {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-20px); }
+  }
+  .register-left p{
+      font-weight: lighter;
+      padding: 12%;
+      margin-top: -9%;
+  }
+  .register .register-form{
+      padding: 10%;
+      margin-top: 10%;
+  }
+  .btnRegister{
+      float: right;
+      margin-top: 10%;
+      border: none;
+      border-radius: 1.5rem;
+      padding: 2%;
+      background: #ff7300;
+      color: #fff;
+      font-weight: 600;
+      width: 50%;
+      cursor: pointer;
+  }
+  .register .nav-tabs{
+      margin-top: 3%;
+      border: none;
+      background: #ff7300;
+      border-radius: 1.5rem;
+      width: 28%;
+      float: right;
+  }
+  .register .nav-tabs .nav-link{
+      padding: 2%;
+      height: 34px;
+      font-weight: 600;
+      color: #fff;
+      border-top-right-radius: 1.5rem;
+      border-bottom-right-radius: 1.5rem;
+  }
+  .register .nav-tabs .nav-link:hover{
+      border: none;
+  }
+  .register .nav-tabs .nav-link.active{
+      width: 100px;
+      color: #ff7300;
+      border: 2px solid #ff7300;
+      border-top-left-radius: 1.5rem;
+      border-bottom-left-radius: 1.5rem;
+  }
+  .register-heading{
+      text-align: center;
+      margin-top: 8%;
+      margin-bottom: -15%;
+      color: #495057;
+  }
+
+    /*formulaire inscription gp reussi*/
+
+
+    /*choix connexion*/
+    
+
+    :root {
+        --bs-blue: #0d6efd;
+        --bs-indigo: #6610f2;
+        --bs-purple: #6f42c1;
+        --bs-pink: #d63384;
+        --bs-red: #dc3545;
+        --bs-orange: #ff7300;
+        --bs-yellow: #ffc800;
+        --bs-green: #198754;
+        --bs-teal: #20c997;
+        --bs-cyan: #0dcaf0;
+        --bs-white: #fff;
+        --bs-gray: #6c757d;
+        --bs-gray-dark: #343a40;
+        --bs-gray-100: #f8f9fa;
+        --bs-gray-200: #e9ecef;
+        --bs-gray-300: #dee2e6;
+        --bs-gray-400: #ced4da;
+        --bs-gray-500: #adb5bd;
+        --bs-gray-600: #6c757d;
+        --bs-gray-700: #495057;
+        --bs-gray-800: #343a40;
+        --bs-gray-900: #212529;
+        --bs-primary: #ffc800;
+        --bs-secondary: #6c757d;
+        --bs-success: #198754;
+        --bs-info: #0dcaf0;
+        --bs-warning: #ffc800;
+        --bs-danger: #dc3545;
+        --bs-light: #f8f9fa;
+        --bs-dark: #212529;
+        --bs-primary-rgb: 255, 200, 0;
+        --bs-secondary-rgb: 108, 117, 125;
+        --bs-success-rgb: 25, 135, 84;
+        --bs-info-rgb: 13, 202, 240;
+        --bs-warning-rgb: 255, 200, 0;
+        --bs-danger-rgb: 220, 53, 69;
+        --bs-light-rgb: 248, 249, 250;
+        --bs-dark-rgb: 33, 37, 41;
+        --bs-white-rgb: 255, 255, 255;
+        --bs-black-rgb: 0, 0, 0;
+        --bs-body-rgb: 33, 37, 41;
+        --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+        --bs-body-font-family: Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        --bs-body-font-size: 1.5rem;
+        --bs-body-font-weight: 400;
+        --bs-body-line-height: 1.5;
+        --bs-body-color: #212529;
+        --bs-body-bg: #fff;
+    }
+
+    body {
+        margin: 0 !important;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        font-family: var(--bs-body-font-family);
+        font-size: var(--bs-body-font-size);
+        font-weight: var(--bs-body-font-weight);
+        line-height: var(--bs-body-line-height);
+        color: var(--bs-body-color);
+        text-align: var(--bs-body-text-align);
+        background-color: var(--bs-body-bg);
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
